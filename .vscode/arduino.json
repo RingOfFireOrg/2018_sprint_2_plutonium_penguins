@@ -1,4 +1,5 @@
 {
     "board": "arduino:avr:uno",
-    "sketch": "teleop_uno.ino"
+    "sketch": "teleop_uno.ino",
+    "port": "COM11"
 }
