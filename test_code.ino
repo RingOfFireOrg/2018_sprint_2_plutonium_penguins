@@ -32,16 +32,16 @@ void wheelsStop() {
 }
 
 void loop() {
-    //servo_leftB.write(0); //forward is 0
-    //servo_leftF.write(0); //forward is 0
-    //servo_rightB.write(180); //forward is 180
-    //servo_rightF.write(180); //forward is 180
-    wheelsOut();
-    delay(1000);
-    wheelsStop();
-    delay(1000);
-    wheelsIn();
-    delay(1000);
-    wheelsStop();
-    delay(1000);
+    servo_leftB.write(0); //forward is 0
+    servo_leftF.write(0); //forward is 0
+    servo_rightB.write(180); //forward is 180
+    servo_rightF.write(180); //forward is 180
+    //wheelsOut();
+    //delay(1000);
+    //wheelsStop();
+    //delay(1000);
+    //wheelsIn();
+    //delay(1000);
+    //wheelsStop();
+    //delay(1000);
 }
