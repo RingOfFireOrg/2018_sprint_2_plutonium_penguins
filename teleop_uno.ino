@@ -5,8 +5,8 @@
 // #include "ServoDriveTrain.h"
 
 
-// #define RX_FROM_NMCU 2
-// #define TX_TO_NMCU 3
+// #define RX_FROM_NMCU 4
+// #define TX_TO_NMCU 5
 
 // // ---------------------------------------------------------------------------
 // /* 
