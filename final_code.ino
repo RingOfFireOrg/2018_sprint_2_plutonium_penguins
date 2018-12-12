@@ -94,7 +94,25 @@ void loop () {
             driveForward2();
             break;
         case 's':
+            driveReverse();
+            break;
+        case 'a':
+            driveLeft();
+            break;
+        case 'd':
+            driveRight();
+            break;
+        case 'x':
             driveStop();
+            break;
+        case 'f':
+            wheelsIn();
+            break;
+        case 'g':
+            wheelsOut();
+            break;
+        case 'm':
+            wheelsStop();
             break;
      }
      delay(10);

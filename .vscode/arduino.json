@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "sketch": "teleop_uno.ino",
-    "port": "COM11"
+    "port": "COM11",
+    "programmer": "AVRISP mkII"
 }
